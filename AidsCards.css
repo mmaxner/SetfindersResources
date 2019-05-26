@@ -1,0 +1,248 @@
+/*
+font-family: 'Patrick Hand', cursive;
+font-family: 'Shadows Into Light', cursive;
+font-family: 'Kaushan Script', cursive;
+font-family: 'Merienda', cursive;
+font-family: 'Special Elite', cursive;
+*/
+
+:root {
+  --dark-color: #404040;
+  font-family: 'Patrick Hand', cursive;
+  color: black
+}
+
+.container {
+	width: 850px;
+	height: 1100px;
+	position: relative;
+}
+
+.threefourcard {
+	position: relative;
+	width: 33.3%;
+	height: 20%;
+	overflow: auto;
+	float: left;
+}
+
+.threefourcard .boundaries {
+	border: solid black 0px;
+	width: 94%;
+	margin-left: 2%;
+	height: 92%;
+	margin-top: 2%;
+	position: relative;
+}
+
+.threefourcard .icon {
+	width: 4.5em;
+	height: 4.5em;
+	float: right;
+}
+
+.threefourcard .title {
+	font-size: 20pt;
+	font-weight: bold;
+	width: 100%;
+	text-align: center;
+}
+
+.threefourcard .caption {
+	font-size: 12pt;
+	font-weight: 550;
+	width: 100%;
+	text-align: center;
+}
+
+.threefourcard .description {
+	font-size: 10pt;
+	font-weight: normal;
+	width: 100%;
+	text-align: justified;
+	float: left;
+	
+  font-weight: 650;
+}
+
+.threefourcard .statcontainer{
+	float: left;
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+.threefourcard .statline {
+	text-align: justified;
+	height: 1.2em;
+	width: 65%;
+	float: left;
+	font-size: 0.95em;
+	font-weight: 600;
+	vertical-align: bottom;
+	font-weight: 650;
+}
+
+.eighth-card {
+	position: relative;
+	width: 50%;
+	float: left;
+	height: 15%;
+	overflow: auto;
+}
+
+.vertical-small-card {
+	position: relative;
+	width: 40%;
+	float: left;
+	height: 15%;
+	overflow: auto;
+}
+
+.quart-card {
+	position: relative;
+	width: 50%;
+	float: left;
+	height: 50%;
+}
+
+.scrollback {
+	background-image: url("images/scroll-background.png");
+	background-size: 98% 98%;
+	background-repeat: no-repeat;
+}
+
+.scrollback-boundaries {
+	border: solid black 0px;
+	width: 85%;
+	height: 83%;
+	margin-left: 6%;
+	margin-top: 2%;
+	position: relative;
+}
+
+.quart-card .scrollback-boundaries {
+	margin-top: 3%;
+	width: 81%;
+}
+
+.paperback {
+	background-image: url("images/paperB.png");
+	background-size: 98% 98%;
+	background-repeat: no-repeat;
+}
+
+.paperback-boundaries {
+	border: solid black 0px;
+	width: 95%;
+	height: 92%;
+	margin-left: 8px;
+	margin-top: 4px;
+	position: relative;
+}
+
+
+	
+.aligned-row {
+}
+	
+.card-title {
+	width: 10%;
+	float: left;
+	font-variant: small-caps;
+	font-size: xx-large;
+	font-weight: bold;
+	padding-left: 10px;
+	display: inline;
+	vertical-align: middle;
+	line-height: 26px;
+	overflow: visible;
+	white-space: nowrap;
+}
+
+.card-caption {
+	width: 10%;
+	float: right;
+	font-size: large;
+	font-weight: 600;
+	vertical-align: middle;
+	text-align: right;
+	line-height: 26px;
+	overflow: wrap;
+}
+
+.card-icon {
+	float: right;
+	padding-right: 0px;
+	height: 4em;
+	width: 4em;
+}
+
+.scrollback-boundaries .card-icon {
+	height: 3.5em;
+	width: 3.5em;
+}
+
+.card-description {
+	float: left;
+	width: 80%;
+	font-size: small;
+	padding-left: 10px;
+	display: inline;
+	vertical-align: middle;
+}
+
+.card-stats {
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+
+.card-stat-block {
+	width: 50%;
+	font-size: medium;
+	font-weight: 600;
+	overflow: visible;
+	white-space: nowrap;
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+.left-align {
+	text-align: left;
+}
+
+.right-align {
+	text-align: right;
+}
+
+.spell-time {
+	float: left;
+	width: 40%;
+	text-align: left;
+	overflow: visible;
+	white-space: nowrap;
+}
+
+.spell-effect {
+	float: middle;
+	width: 40%;
+	text-align: center;
+	overflow: visible;
+	white-space: nowrap;
+}
+
+.spell-components {
+	float: right;
+	width: 20%;
+	text-align: right;
+	overflow: visible;
+	white-space: nowrap;
+}

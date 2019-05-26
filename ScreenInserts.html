@@ -1,0 +1,133 @@
+	<html>
+<head>
+<link href="https://fonts.googleapis.com/css?family=Kaushan+Script|Merienda|Patrick+Hand|Shadows+Into+Light|Special+Elite" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="Screen.css">
+<script src="html2canvas.js"></script>
+</head>
+<body>
+<div class="landscape container" id="page0">
+<div class="heading">C O M B A T<hr/></div>
+<div class="column">
+<div class="sectiontitle">Acrobatics</div>
+<table class="actiontable">
+<thead>
+<td width="60%">Action</td><td width="25%">DC</td><td width="15%">Notes</td>
+</thead>
+<tr><td>Balance on 7-11" ledge</td><td>10</td><td></td></tr>
+<tr><td>Balance on 3-6" ledge</td><td>15</td><td></td></tr>
+<tr><td>Standard Spell</td><td>Standard</td><td>Yes</td></tr>
+<tr><td>Full Round Spell</td><td>Full-Round</td><td>Yes</td></tr>
+<tr><td>Concentrate on Spell</td><td>Standard</td><td>No</td></tr>
+<tr><td>Immediate Spell</td><td>Immediate</td><td>No</td></tr>
+<tr><td>Cancel Spell/Concentration</td><td>Free</td><td>No</td></tr>
+<tr><td>Charge</td><td>Full Round</td><td>Yes</td></tr>
+<tr><td>Retrieve Item</td><td>Move</td><td>Yes</td></tr>
+<tr><td>Drink Potion</td><td>Standard</td><td>Yes</td></tr>
+<tr><td>Channel Energy</td><td>Standard</td><td>No</td></tr>
+<tr><td>Spell Like Ability</td><td>Standard</td><td>No</td></tr>
+<tr><td>Apply Touch to 6 Allies</td><td>Full Round</td><td>Yes</td></tr>
+<tr><td>Move</td><td>Move</td><td>Yes</td></tr>
+<tr><td>Run</td><td>Full Round</td><td>Yes</td></tr>
+<tr><td>Withdraw</td><td>Full Round</td><td>No</td></tr>
+<tr><td>Stand from Prone</td><td>Move</td><td>Yes</td></tr>
+<tr><td>Aid Another</td><td>Standard</td><td>??</td></tr>
+<tr><td>Coup De Grace</td><td>Full Round</td><td>Yes</td></tr>
+<tr><td>Escape Grapple</td><td>Standard</td><td>No</td></tr>
+<tr><td>Total Defence</td><td>Standard</td><td>No</td></tr>
+</table>
+
+<div class="sectiontitle">Manoeuvers</div>
+<table class="actiontable">
+<thead>
+<td width="20%">Manoeuver</td><td width="65%">Description</td><td width="15%">Melee Attack</td>
+</thead>
+<tr><td>Bull Rush</td><td>Push target 5ft +5ft per 5 over CMD.</td><td>No</td></tr>
+<tr><td>Disarm</td><td>Target drops 1 item, or 2 if 10 over CMD..</td><td>Yes</td></tr>
+<tr><td>Grapple</td><td>Both grappled if over CMD.</td><td>No</td></tr>
+<tr><td>Overrun</td><td>Move through target, knock prone if 5 over CMD.</td><td>No</td></tr>
+<tr><td>Sunder</td><td>Attack item held or worn if over CMD.</td><td>Yes</td></tr>
+<tr><td>Trip</td><td>Knock target prone, or self if 10 under CMD.</td><td>Yes</td></tr>
+
+</table>
+
+</div>
+<div class="column">
+<div class="sectiontitle">Offense Modifiers</div>
+<table class="actiontable">
+<thead>
+<td width="35%">Attacker is...</td><td width="10%">Melee</td><td width="10%">Ranged</td><td width="45%">Notes</td>
+</thead>
+<tr><td>Charging</td><td>+2</td><td>--</td><td>--</td></tr>
+<tr><td>Flanking</td><td>+2</td><td>--</td><td>Can Sneak Attack</td></tr>
+<tr><td>Invisible</td><td>+2</td><td>+2</td><td>Can Sneak Attack</td></tr>
+<tr><td>High Ground</td><td>+1</td><td>--</td><td>--</td></tr>
+<tr><td>Prone</td><td>-4</td><td>--</td><td>Most ranged weapons inoperable.</td></tr>
+<tr><td>Shaken/Frightened</td><td>-2</td><td>-2</td><td>--</td></tr>
+<tr><td>Squeezing</td><td>-4</td><td>-4</td><td>--</td></tr>
+<tr><td>Broken Weapon</td><td>-2</td><td>-2</td><td>--</td></tr>
+<tr><td>Innapropriate Size</td><td>-2*</td><td>-2*</td><td>-2 per size difference</td></tr>
+<tr><td>Improvised Weapon</td><td>-4</td><td>-4</td><td>--</td></tr>
+<tr><td>Non-Lethal</td><td>-4</td><td>-4</td><td>--</td></tr>
+</table>
+
+<div class="sectiontitle">Defense Modifiers</div>
+<table class="actiontable">
+<thead>
+<td width="35%">Defender is...</td><td width="10%">Melee</td><td width="10%">Ranged</td><td width="45%">Notes</td>
+</thead>
+<tr><td>Partial Cover</td><td>+2</td><td>+2</td><td>--</td></tr>
+<tr><td>Cover</td><td>+4</td><td>+4</td><td>--</td></tr>
+<tr><td>Improved Cover</td><td>+8</td><td>+8</td><td>--</td></tr> 
+<tr><td>Blind</td><td>-2</td><td>-2</td><td>No DEX to AC</td></tr>
+<tr><td>Charging</td><td>-2</td><td>-2</td><td>Applies until next turn</td></tr>
+<tr><td>Entangled</td><td>--</td><td>--</td><td>No DEX to AC</td></tr>
+<tr><td>Flat Footed</td><td>--</td><td>--</td><td>No DEX to AC</td></tr>
+<tr><td>Prone</td><td>-4</td><td>+4</td><td>--</td></tr>
+<tr><td>Squeezing</td><td>-4</td><td>-4</td><td>--</td></tr>
+<tr><td>Stunned</td><td>-2</td><td>-2</td><td>No DEX to AC</td></tr>	
+</table>
+
+<div class="sectiontitle">Concealment</div>
+<table class="actiontable">
+<thead>
+<td width="50%">Hiding Behind...</td><td width="50%">Miss Chance</td>
+</thead>
+<tr><td>Concealment</td><td>20%</td></tr>	
+<tr><td>Heavy Undergrowth</td><td>30%</td></tr>	
+<tr><td>Total Concealment</td><td>50%</td></tr>	
+</table>
+
+</div>
+
+<div class="column">
+
+<div class="sectiontitle">Conditions</div>
+<table class="actiontable">
+<thead>
+<td width="10%"></td><td width="90%"></td>
+</thead>
+<tr><td>Blinded</td><td>-2 AC, no DEX to AC, -4 to STR/DEX skills, all opponents have total concealment. DC 10 acrobatics to move more than 1/2 speed.</td></tr>
+<tr><td>Broken</td><td>Armor that's broken provides half AC and double ACP. Broken weapons take -2 to attack and damage, and have the minimum crit stats.</td></tr>
+<tr><td>Confused</td><td>1- Act normally, 2- babble incoherently for round, 3- 1d8 +STR damage to self, 4- attack nearest creature.</td></tr>
+<tr><td>Dazzled</td><td>-1 to attack and sight based checks.</td></tr>
+<tr><td>Negative Level</td><td>Per level: -1 on checks, attacks, CMD, and saves. -5 max hp.</td></tr>
+<tr><td>Entangled</td><td>If anchored, no movement, otherwise half speed. -2 to attack, -4 to DEX, concentration needed for spellcasting.</td></tr>
+<tr><td>Exhausted</td><td>Half speed, -6 to STR and DEX. Rest 1 hour to reduce to Fatigued.</td></tr>
+<tr><td>Fatigued</td><td>Cannot run or charge, -2 STR and DEX. Rest 8 hours to remove.</td></tr>
+<tr><td>Frightened</td><td>Shaken, and must flee from source of terror.</td></tr>
+<tr><td>Grappled</td><td>Cannot move, take AOO, or 2-handed actions. -4 to DEX, -2 to attacks (except escaping). Concentration required for spellcasting.</td></tr>
+<tr><td>Nauseated</td><td>Can only take move actions, no attacks or spellcasting.</td></tr>
+<tr><td>Panicked</td><td>Frightened, and drops all held items.</td></tr>
+<tr><td>Paralyzed</td><td>Treated as 0 STR and DEX, winged flight stops, creature is helpless.</td></tr>
+<tr><td>Pinned</td><td>Grappled, flat footed, -4 AC, can only do verbal or mental actions and try to escape.</td></tr>
+<tr><td>Shaken</td><td>-2 on attacks, saves, and checks.</td></tr>
+<tr><td>Sickened</td><td>-2 on attacks, damage, saves, and checks.</td></tr>
+<tr><td>Staggered</td><td>Can only take a Standard action per round.</td></tr>
+<tr><td>Stunned</td><td>Cannot take actions, drops all items, -2 AC, loses DEX to AC.</td></tr>
+</table>
+
+</div>
+
+
+<script src="RenderDiv.js"></script>
+</body>
